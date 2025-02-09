@@ -19,5 +19,5 @@ function calculationsrting() {
     //Total Alphabet In Str
     var mai = String(arr)
     var m = mai.trim().length - (sub - 1)
-    alert(`Total Character: ${TotalNum} Words: ${val} Only Alphabet: ${m}`)
+    alert(`Total Character: ${TotalNum} Words: ${val} Only Alphabet Or Num: ${m}`)
 }
