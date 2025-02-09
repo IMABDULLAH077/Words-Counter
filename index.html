@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    #main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+    }
+    h2{
+        margin-bottom: 10px;
+    }
+    #input-value{
+        width: 50%;
+        height: 70px;
+    }
+    #input-value input{
+      width: 100%;
+      height: 40px;
+      border-radius: 5px;
+      padding-left: 6px;
+      outline: none;
+      border: 1px solid black;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .btn{
+        width: 50%;
+        height: 40px;
+        background-color: black;
+        color: white;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    .btn:hover{
+        background-color: white;
+        color: black;
+    }
+</style>
+<body>
+    <div id="main">
+        <h2>Total Character, Words And Alphabet Counter</h2>
+        <div id="input-value">
+            <input type="text" placeholder="Please Enter The Paragraph">
+        </div>
+        <button class="btn">submit</button>
+   
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
