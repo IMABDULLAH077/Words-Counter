@@ -1,4 +1,4 @@
-let input = document.querySelector("input")
+let input = document.querySelector("#input_text")
 let button = document.querySelector(".btn")
 
 button.addEventListener("click", calculationsrting)

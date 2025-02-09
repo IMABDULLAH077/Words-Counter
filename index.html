@@ -28,11 +28,11 @@
         width: 50%;
         height: 70px;
     }
-    #input-value input{
+    #input-value #input_text{
       width: 100%;
-      height: 40px;
+      height: 100%;
       border-radius: 5px;
-      padding-left: 6px;
+      padding:6px 10px;
       outline: none;
       border: 1px solid black;
     }
@@ -43,6 +43,7 @@
         color: white;
         border: 1px solid black;
         border-radius: 5px;
+        margin-top: 10px;
     }
     .btn:hover{
         background-color: white;
@@ -53,7 +54,7 @@
     <div id="main">
         <h2>Total Character, Words And Alphabet Counter</h2>
         <div id="input-value">
-            <input type="text" placeholder="Please Enter The Paragraph">
+            <textarea name="" id="input_text" placeholder="Please Enter The Paragraph"></textarea>
         </div>
         <button class="btn">submit</button>
    
